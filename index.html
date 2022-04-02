@@ -10,7 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link href="src/styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
 
   <body>
@@ -18,7 +18,8 @@
       <div class="card">
         <div class="card-body">
           <div class="row">
-            <div class="col-4">
+            <div class="col-6">
+              <div class="current-weather">
               <button id="check-my-location">My location</button>
 
               <form class="selectcity" id="type-city">
@@ -56,13 +57,14 @@
 
               <div>Wind: <a id="wind">13 </a>km/h</div>
             </div>
+            </div>
             
-            <div class="col-8">
+            <div class="col-6">
               <p>NEXT DAYS</p>
 
               <div class="row">
               <div class="col-4">
-
+                <div class="left-column">
               <ul>
                 <div class="weathertomorrow">
                   <div class="day1">Thursday</div>
@@ -74,7 +76,8 @@
                   <div class="day3temp">7°C, mostly sunny</div>
                   <img src="images/sunbehindcloud.png" width="100" />
                 </div>
-
+                <br />
+                <br />
                 <div class="weatherday5">
                   <div class="weatherday3rd">Monday</div>
                   <div class="day3temp">4°C, snow showers</div>
@@ -82,8 +85,10 @@
                 </div>
               </ul>
               </div>
+              </div>
 
               <div class="col-4">
+                <div class="right-column">
               <ul>
                 <div class="weatherday3">
                   <div class="weatherday3rd">Friday</div>
@@ -101,6 +106,7 @@
                   <div class="day3temp">4°C, snow showers</div>
                   <img src="images/snowcloud.png" width="100" />
                 </ul>
+                </div>
                 </div>
                 </div>
               </div>

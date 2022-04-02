@@ -1,7 +1,20 @@
-h1 {
-  color: blue;
+p {
+  font-size: 20px;
+  text-align: center;
+  margin-left: -120px;
 }
 
-p {
+.current-weather {
+  display: block;
   text-align: center;
+}
+
+.left-column {
+  display: block;
+  text-align: center;
+}
+
+.right-column {
+  display: block;
+  text-align: right;
 }
